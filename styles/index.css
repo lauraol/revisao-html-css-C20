@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Nunito:wght@400;500;800&display=swap');
+
+/*
+para fixão desse conteúdo direitinho é legal que leiam os materiais abaixo:
+
+unidades de medidas no CSS: 
+https://www.alura.com.br/artigos/guia-de-unidades-no-css
+https://www.treinaweb.com.br/blog/unidades-de-medidas-no-css#:~:text=Conhecer%20o%20curso-,Rem,1rem%20%C3%A9%20igual%20%C3%A0%2016px.
+
+seletores css:
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors
+https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+o que foi utilizado nessa aula:
+
+unidades de medida: 
+px - medida absoluta
+% - medida relativa
+rem - medida relativa
+
+seletores:
+tag
+class
+id
+*/
+
+/*general styles*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F9EDE1;
+}
+
+/*header*/
+header{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+height: 50vh;
+width: 100%;
+}
+
+.logo{
+  width: 5%;
+}
+
+#title{
+  font-family: 'Ms Madi', cursive;
+  font-size: 5rem;
+}
+
+#sub-title-header{
+  font-family: 'Ms Madi', cursive;
+  font-size: 2.5rem;
+}
+
+.arrow-down{
+  margin-top: 2rem;
+}
+
+/*new store section*/
+.container{
+  display: flex;
+  flex-direction: row-reverse;
+
+  margin: 0 10% 0 10%;
+}
+
+h1{
+  font-family: 'Ms Madi', cursive;
+  font-size: 4.5rem;
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.texts{  
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.6rem;
+  font-weight:normal;
+
+  margin-bottom: 1.5rem;
+}
+
+#pink-text{
+  font-weight: bold;
+  color: #CE5184;
+}
+
+.text-before-button{
+  margin-bottom: 4rem;
+}
+
+.social-media-images{
+  width: 5%;
+  margin-right: 1rem;
+}
+
+/*footer*/
+.whatsapp-icon-container{
+  display: flex;
+  justify-content: end;
+
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 2;
+}
+
+.whatsapp-icon{
+  width: 10%;
+}
+
+
+
