@@ -30,6 +30,23 @@ id
   padding: 0;
 }
 
+CSS
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: .8em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+
 body{
   background-color: #F9EDE1;
 }
